@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+section{
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+.velika{
+position: absolute;
+bottom: 200px;
+left: 150px;
+max-width: 560px;
+}
+.velika h2{
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+.velika h4{
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+.velika p{
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out;
+}
+
+
+
+
+@keyframes fadeInUp{
+    0%{
+opacity: 0;
+transform: translateY(140px);
+    }
+    100%{
+opacity: 1;
+transform: translateY(0);
+    }
+}
